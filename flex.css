@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+}
+
+#img {
+    padding-left: 30px;
+    width: 200px;
+    height: 200px;
+    margin-left: 10%;
+}
+
+body {
+    background-color: #D7F2FF;
+}
+
+#cabecalio{
+    background-color: #D7F2FF;
+    font-size: 30px;
+    color: #EE318C;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding-left: 40px;
+    height: 120px;
+}
+
+#cabecalio div {
+    margin-top: 0px;
+
+}
+
+#texto {
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 500px;
+}
+
+#btn {
+    margin-left: 15%;
+    margin-top: 30px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: #EE318C;
+}
+#btn a{
+    background-color: rgb(255, 255, 255);
+    color: #EE318C;
+}
+
+
+.oi {
+    margin-top: 50%;
+}
+
+.itens_header {
+    padding-top: 80px;
+}
+
+#inicio {
+    height: 500px;
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+
+#letra {
+    color: #EE318C;
+    font-size: 70px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+#grid1 {
+    margin-top: 90px;
+    justify-content: center;
+    grid-template-columns: 6vh;
+    column-gap: 400px;
+    display: flex;
+
+
+}
+
+#sabor {
+    color: #EE318C;
+    font-size: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 450px;
+}
+
+.imagemdonuts {
+    width: 200px;
+    height: 200px;
+}
+
+input{
+    height: 120px;
+    width: 1910px;
+   border: none;
+   background-color: #F6C6DD;
+   
+     
+}
+
+::placeholder{
+    color: #EE318C;
+    font-size: 50px;
+   padding-left: 750px;
+}
+
+a{
+    color: #EE318C;
+}
+
+#introducao{
+    width: 1800px;
+    font-size: 27px;
+    margin-top: 60px;
+   padding-left: 60px;
+   text-align: center;
+}
+
+#cor{
+    color: #EE318C;
+}
+
+#cor1{
+    color: #EE318C;
+}
+
+#titulo2{
+    margin-left: 750px;
+    margin-top: 45px;
+    font-size: 60px;
+    color: #EE318C;
+}
+
+#sabores{
+    margin-left: 60px;
+    font-size: 60px;
+    margin-top: 20px;
+    color: #EE318C;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.grid-item{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item img{
+    width: 400px;
+    height: 300px;
+}
+
+
